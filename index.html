@@ -14,18 +14,43 @@
         <p style="margin: 0px auto; max-width: 21em; text-align: center;" >Criado com objetivos exclusivamente didáticos para a disciplina Desenvolvimento Web do Ibmec Rio.</p>
       </div>
       <div id="fake-form" style="text-align: center; flex: 0.6 1 0%;">
-      <input id="Entrada-Senha" type="text" placeholder="Informe a senha."
-    style="padding: 0.3em; margin: 0.5em;">
-    <a href="segundo.html" > <button style="background-color: black; border: none; color: yellow; text-align: center; text-decoration: none; padding: 0.5em 1em; cursor: pointer;">Entrar</button>
-    </a> 
-
-      <p style="margin: 0px auto;"> Efetue o login, senha: GLORIOSO</p>
-
-</div>
-    </div>
-  </body>
-</html>
-
+    
   
+
+        <form>
+      
+      
+    
+    <input type="senha" placeholder="Senha" id="senha" style="padding: 0.3em; margin: 0.5em;">
+    
+    <input type="submit"  style="background-color: black; border: none; color: yellow; text-align: center; text-decoration: none; padding: 0.5em 1em; cursor: pointer;" onclick="logar(); return false"> 
+    
+    <p style="margin: 0px auto;"> Efetue o login, senha: GLORIOSO</p>
+
+    
+    
+
+
+    </form>
+    <script>
+      function logar(){
+        var senha = document.getElementById('senha').value;
+
+        if(senha == "GLORIOSO"){
+
+          alert('Sucesso');
+          location.href = "segundo.html";
+        }else{
+          alert('senha incorreta');
+        }
+        }
+      
+    </script>
+      </div>
+    </div>
+     
+    
+  
+      
   </body>
 </html>
