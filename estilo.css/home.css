@@ -1,0 +1,26 @@
+
+a{
+    background-color: black; 
+    border: none;
+    color: yellow;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    color: white;
+}
+
+
+
+#headerHome{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 0.5em 1em;
+    align-items: center;
+}
