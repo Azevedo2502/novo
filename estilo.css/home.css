@@ -91,9 +91,9 @@ h1{
     font-family: 'Nova Square', sans-serif;
     display: grid;
     margin:auto;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: center;
     gap: 1em;
-    margin: auto;
     max-width: 1200px;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     @media screen and (max-width: 1024px) {

@@ -16,17 +16,20 @@ const fazerCartao = (atleta) => {
     const imgJog = document.getElementById("imgJog");
     imgJog.src = imagem;
 
-    const nomeJog = document.getElementById("nomeJog");
-    nomeJog.innerHTML = nomeAtleta;
-
     const posJog = document.getElementById("posJog");
     posJog.innerHTML = posicao;
+    
+    const nomeJog = document.getElementById("nomeJog");
+    nomeJog.innerHTML = nomeAtleta;
+    
+    const nomeCJog = document.getElementById("nomeCJog");
+    nomeCJog.innerHTML = `Nome completo: ${nomeCompleto}`;
+
+    const nomeInfoJog = document.getElementById("nomeInfoJog");
+    nomeInfoJog.innerHTML = nomeCompleto;
 
     const descricaoJog = document.getElementById("descricaoJog");
     descricaoJog.innerHTML = `${descricao}`;
-
-    const nomeCJog = document.getElementById("nomeCJog");
-    nomeCJog.innerHTML = `Nome completo: ${nomeCompleto}`;
 
     const nascimentoJog = document.getElementById("nascimentoJog");
     nascimentoJog.innerHTML = `Nascimento: ${nascimento}`

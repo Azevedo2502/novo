@@ -22,7 +22,7 @@ const selectOp = () => {
 
 const fazerCartao = (atleta) => {
     const container = document.createElement('article');
-    const titulo = document.createElement('h3');
+    const titulo = document.createElement('h5');
     const imagem = document.createElement('img');
     const saibaMais = document.createElement('p');
     saibaMais.classList.add("playerCard")
@@ -38,7 +38,7 @@ const fazerCartao = (atleta) => {
     container.style.width = 'min-content';
     container.style.backgroundColor = 'grey';
     container.style.textAlign = 'center';
-    container.style.margin = 'auto';
+    container.style.margin = '0px';
     container.style.padding ='0.5em';
     container.style.cursor = 'pointer';
 
