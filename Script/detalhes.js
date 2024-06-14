@@ -4,6 +4,7 @@ const atletaId = parametroId.get('id');
 const urlEndpoint = `https://botafogo-atletas.mange.li/2024-1/${atletaId}`;
 
 const fazerCartao = (atleta) => {
+    console.log(atleta)
 
     const nomeAtleta = atleta.nome;
     const nomeCompleto = atleta.nome_completo;
