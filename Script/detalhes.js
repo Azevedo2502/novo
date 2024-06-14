@@ -7,10 +7,10 @@ const fazerCartao = (atleta) => {
     console.log(atleta)
 
     const nomeAtleta = atleta.nome;
-    const nomeCompleto = atleta.nome_completo;
+    
     const posicao = atleta.posicao;
     const imagem = atleta.imagem;
-    const descricao = atleta.descricao;
+    const descricao = atleta.detalhes;
     const nascimento = atleta.nascimento;
     const altura = atleta.altura;
 
@@ -24,10 +24,10 @@ const fazerCartao = (atleta) => {
     nomeJog.innerHTML = nomeAtleta;
     
     const nomeCJog = document.getElementById("nomeCJog");
-    nomeCJog.innerHTML = `Nome completo: ${nomeCompleto}`;
+    nomeCJog.innerHTML = `Nome completo: ${nomeAtleta}`;
 
     const nomeInfoJog = document.getElementById("nomeInfoJog");
-    nomeInfoJog.innerHTML = nomeCompleto;
+    nomeInfoJog.innerHTML = nomeAtleta;
 
     const descricaoJog = document.getElementById("descricaoJog");
     descricaoJog.innerHTML = `${descricao}`;
